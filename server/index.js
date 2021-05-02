@@ -21,15 +21,8 @@ const connection = mysql.createConnection({
     password: 'BRoHvfQdou',
 });
 
-/*connection.query('SELECT * FROM clients', function (err, results) {
-    if (err) {
-        console.error(err);
-    }
-    console.log(results);
-})*/
-
 app.get('/', function (req,res) {
-    connection.query('SELECT * FROM clients', function (err, results) {
+    connection.query('SHOW tables', function (err, results) {
         if (err) {
             console.error(err);
         }
@@ -67,6 +60,31 @@ app.get('/clients', function (req,res) {
     });
 });
 
+app.get('/:table/:column/:search', function (req,res) {
+    connection.query(`SELECT * FROM ${req.params.table} WHERE ${req.params.column}='${req.params.search}'`, function (err, results) {
+        if (err) {
+            console.error(err);
+        }
+        else {
+            res.setHeader('Access-Control-Allow-Origin', '*');
+            res.setHeader('Access-Control-Allow-Headers', 'origin, content-type, accept');
+            res.json(results);
+        }
+    });
+});
+
+app.get('/:table/describe', function (req,res) {
+    connection.query(`DESCRIBE ${req.params.table}`, function (err, results) {
+        if (err) {
+            console.error(err);
+        }
+        else {
+            res.setHeader('Access-Control-Allow-Origin', '*');
+            res.setHeader('Access-Control-Allow-Headers', 'origin, content-type, accept');
+            res.json(results);
+        }
+    });
+});
 
 app.listen(3001, () => {
     console.log('started on Port 3001');
