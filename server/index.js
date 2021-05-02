@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 
-var corsOptions = {
+const corsOptions = {
     origin: "127.0.0.1"
 };
 

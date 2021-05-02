@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="534176b1-1b0e-488b-975b-23a5cd08d529" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-cursach" beforeDir="false" afterPath="$PROJECT_DIR$/sql-cursach" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-cursach/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/sql-cursach/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-cursach/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/sql-cursach/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-cursach/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sql-cursach/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql-cursach/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sql-cursach/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="534176b1-1b0e-488b-975b-23a5cd08d529" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +41,7 @@
       <workItem from="1619861523076" duration="9585000" />
       <workItem from="1619882269357" duration="16000" />
       <workItem from="1619882832170" duration="156000" />
-      <workItem from="1619980034658" duration="5659000" />
+      <workItem from="1619980034658" duration="5999000" />
     </task>
     <servers />
   </component>
